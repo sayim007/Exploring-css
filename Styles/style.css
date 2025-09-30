@@ -36,7 +36,6 @@
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-
 }
 
 .box-image{
@@ -44,9 +43,22 @@
     padding: 10px;
     width: 90%;
     border-radius: 25px;
+    position:relative;
+    /* box-shadow: 5PX 5PX 5PX grey; */
 }
 .list{
     margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+}
+
+.background{
+    background-color: antiquewhite;
+    border-radius: 25px;
+    box-shadow: 5PX 5PX 5PX grey;
+    background-image: url("../Media/Images/comic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
